@@ -106,6 +106,13 @@ Sample run:
 docker run --name my-container --env-file=/home/soft-dev/Desktop/Server-Deploy-project/env_file.txt -p 80:8080 udacity-flask-app
 ```
 
+The env_file used for deploying to the gunicorn server locally is a simple text file that stores the environment variables in a key-value pairs as shown below:
+
+ ```bash
+JWT_SECRET='abc123abc1234'
+LOG_LEVEL=DEBUG
+```
+
 ## To check the endpoints
 
  ```bash
