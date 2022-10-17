@@ -103,7 +103,7 @@ docker run --name containerName --env-file=pathToenv_file -p 80:8080 imageName
 Sample run:
 
  ```bash
-docker run --name my-container --env-file=/home/soft-dev/Desktop/Server-Deploy-project/env_file.txt -p 80:8080 udacity-flask-app
+docker run --name my-container --env-file=/home/soft-dev/Server-Deploy-project/env_file.txt -p 80:8080 udacity-flask-app
 ```
 
 The env_file used for deploying to the gunicorn server locally is a simple text file that stores the environment variables in a key-value pairs as shown below:
